@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Sono';
+    src: url(../fonts/Sono-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Sono';
+    src: url(../fonts/Sono-SemiBold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Sono';
+    src: url(../fonts/Sono-Light.ttf);
+    font-weight:light;
+}
+
+*, * + *{
+    font-family: 'Sono';
+}
