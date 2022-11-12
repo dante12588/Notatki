@@ -7,6 +7,7 @@
     <title>Notatki</title>
 
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
 </head>
 <body>
 
@@ -25,6 +26,9 @@
     </nav>
     <div class="login">
         <a class="button" href="#">Login</a>
+    </div>
+    <div class="dark-mode">
+        <img src="img/dark-mode.svg" alt="">
     </div>
 </header>
     
