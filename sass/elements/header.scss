@@ -1,9 +1,19 @@
 header{
 
     display: grid;
+    width: 100%;
     grid-template-columns: 1fr 70% 1fr;
     align-items: center;
-    padding: 10px;
+    padding: 30px 0;
+    position: fixed;
+    background-color: var(--white);
+    
+    .active{
+        -webkit-box-shadow: 0px 5px 30px -18px rgba(0, 0, 0, 1);
+        -moz-box-shadow: 0px 5px 30px -18px rgba(0, 0, 0, 1);
+        box-shadow: 0px 5px 30px -18px rgba(0, 0, 0, 1);
+        padding: 10px 0;
+    }
 
     .logo{
         p{
@@ -20,7 +30,7 @@ header{
                 height: 100%;
                 animation: logo 2s forwards;
                 animation-iteration-count: 1;
-                left: -20px;
+                left: -10px;
                 background-color: var(--black);
             }
 
@@ -29,14 +39,14 @@ header{
                 position: absolute;
                 height: 5px;
                 width: 0;
-                left: -20px;
+                left: -10px;
                 background-color: var(--black);
                 bottom: 0;
                 transition: width .3s ease-in-out;
             }
 
             &:hover::before{
-                width: calc(100% + 20px);
+                width: calc(100% + 10px);
             }
         }
 
@@ -52,16 +62,16 @@ header{
 
         a{
             text-decoration: none;
-            color: #000000;
-            font-size: 18px;
+            color: var(--black);
+            font-size: 20px;
         }
     }
 
     .login{
         a{
             text-decoration: none;
-            color: #000000;
-            font-size: 18px;
+            color: var(--black);
+            font-size: 20px;
         }
     }
 }
@@ -72,6 +82,6 @@ header{
     }
 
     to{
-        width: 10px;
+        width: 5px;
     }
 }
