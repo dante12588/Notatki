@@ -1,0 +1,20 @@
+.button{
+
+    position: relative;
+
+
+    &::after{
+        content: '';
+        position: absolute;
+        background-color: var(--black);
+        width: 0;
+        height: 5px;
+        bottom: -10px;
+        left: 0;
+        transition: width .3s ease-in-out;
+    }
+
+    &:hover::after{
+        width: 100%;
+    }
+}

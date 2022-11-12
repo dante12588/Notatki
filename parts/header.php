@@ -16,15 +16,15 @@
     </div>
     <nav class="main-menu">
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Page 1</a></li>
-            <li><a href="#">Page 2</a></li>
-            <li><a href="#">Page 3</a></li>
-            <li><a href="#">Page 4</a></li>
+            <li><a class="button" href="#">Home</a></li>
+            <li><a class="button" href="#">Page 1</a></li>
+            <li><a class="button" href="#">Page 2</a></li>
+            <li><a class="button" href="#">Page 3</a></li>
+            <li><a class="button" href="#">Page 4</a></li>
         </ul>
     </nav>
     <div class="login">
-        <a href="#">Login</a>
+        <a class="button" href="#">Login</a>
     </div>
 </header>
     
