@@ -1,13 +1,17 @@
 header{
-
-    display: grid;
     width: 100%;
-    grid-template-columns: 1fr 70% 1fr 1fr;
-    align-items: center;
     padding: 30px 0;
     position: fixed;
     background-color: var(--bg-color);
     transition: all .3s ease-in-out;
+
+    .header-wrapper{
+        max-width: 1240px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 70% 1fr 1fr;
+        align-items: center;
+    }
     
     &.active{
         -webkit-box-shadow: 0px 5px 30px -18px rgba(0, 0, 0, 1);
@@ -44,7 +48,7 @@ header{
                 left: -10px;
                 background-color: var(--font-color);
                 bottom: 0;
-                transition: width .3s ease-in-out;
+                transition: all .3s ease-in-out;
             }
 
             &:hover::before{

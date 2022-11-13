@@ -23,12 +23,13 @@ function init(){
             root.style.setProperty('--font-color', '#000000');
             root.style.setProperty('--bg-color', '#ffffff');
             darkModeBtn.classList.remove('active');
+            darkModeBtn.src = 'img/dark-mode.svg';
         }else{
             root.style.setProperty('--font-color', '#ffffff');
             root.style.setProperty('--bg-color', '#000000');
             darkModeBtn.classList.add('active');
+            darkModeBtn.src = 'img/light-mode.svg';
         }
     });
 
 }
-

@@ -12,23 +12,25 @@
 <body>
 
 <header>
-    <div class="logo">
-       <p>Notatki</p>
-    </div>
-    <nav class="main-menu">
-        <ul>
-            <li><a class="button" href="#">Home</a></li>
-            <li><a class="button" href="#">Page 1</a></li>
-            <li><a class="button" href="#">Page 2</a></li>
-            <li><a class="button" href="#">Page 3</a></li>
-            <li><a class="button" href="#">Page 4</a></li>
-        </ul>
-    </nav>
-    <div class="login">
-        <a class="button" href="#">Login</a>
-    </div>
-    <div class="dark-mode">
-        <img src="img/dark-mode.svg" alt="">
+    <div class="header-wrapper">
+        <div class="logo">
+            <p>Notatki</p>
+        </div>
+        <nav class="main-menu">
+            <ul>
+                <li><a class="button" href="#">Home</a></li>
+                <li><a class="button" href="#">Page 1</a></li>
+                <li><a class="button" href="#">Page 2</a></li>
+                <li><a class="button" href="#">Page 3</a></li>
+                <li><a class="button" href="#">Page 4</a></li>
+            </ul>
+        </nav>
+        <div class="login">
+            <a class="button" href="#">Login</a>
+        </div>
+        <div class="dark-mode">
+            <img src="img/dark-mode.svg" alt="">
+        </div>
     </div>
 </header>
     
